@@ -1,0 +1,75 @@
+#profilePage{
+    height: 100%;
+    width: 100%;
+    background: #ff9966;  
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966); 
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    position: relative;
+}
+
+#logout{
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#username{
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#menu{
+   position: absolute;
+    top: 25px;
+    left: 15px; 
+}
+
+#logo{
+    position: absolute;
+    top: 27px;
+    left: 105px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#profilepic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fff;
+}
+
+.svg-icon circle {
+  stroke: #fff;
+  stroke-width: 1;
+}
