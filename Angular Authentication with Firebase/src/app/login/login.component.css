@@ -1,0 +1,172 @@
+#loginPage{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #ff9966;  
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966); 
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+}
+
+#formcontainer{
+    position: absolute;
+    top: 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 500px;
+}
+
+#formcontainer p{
+    text-align: center;
+    color: #FEB5AF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    word-spacing: 2px;
+}
+
+#sociallogin{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+
+#google{
+    width: 49.5%;
+    height: 100%;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+#google i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px !important;
+    color: #fff !important;
+}
+
+#twitter{
+    width: 49.5%;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-left: 1px solid #FEB5AF;
+    cursor: pointer;
+}
+
+#twitter i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px !important;
+    color: #fff !important;
+}
+
+
+#or{
+    text-align: center;
+    color: #FEB5AF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px !important;
+    font-weight: bolder;
+    word-spacing: 2px;
+    margin-top: 35px;
+}
+
+#formdiv{
+    text-align: center;
+}
+
+#email{
+    margin: 20px auto;
+    height: 40px;
+    width : 350px;
+    background-color: #fff;
+    border-radius: 5px
+}
+
+#email input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+#password{
+    margin: 20px auto;
+    height: 40px;
+    width : 350px;
+    background-color: #fff;
+    border-radius: 3px
+}
+
+#password input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+#submit{
+    margin: 20px auto;
+    height: 40px;
+    width : 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px !important;
+    color: #ff9966;
+    text-align: center;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-align: center;
+    color: #ff9966
+}
+::-moz-placeholder { /* Firefox 19+ */
+    text-align: center;
+    color: #ff9966
+}
+:-ms-input-placeholder { /* IE 10+ */
+    text-align: center;
+    color: #ff9966
+}
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+    color: #ff9966
+}
+
+
+
+input[type="text"]
+{
+    text-align: center;
+    font-size:18px;
+    color: #ff9966;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type="password"]
+{
+    text-align: center;
+    font-size:18px;
+    color: #ff9966;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#createaccount{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
