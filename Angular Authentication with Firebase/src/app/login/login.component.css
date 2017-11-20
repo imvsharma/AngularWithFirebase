@@ -91,7 +91,7 @@
 
 #email input{
     height: 30px;
-    width: 100%;
+    width: 90%;
     border: none;
     outline: none;
     margin-top: 5px;
@@ -107,7 +107,7 @@
 
 #password input{
     height: 30px;
-    width: 100%;
+    width: 90%;
     border: none;
     outline: none;
     margin-top: 5px;

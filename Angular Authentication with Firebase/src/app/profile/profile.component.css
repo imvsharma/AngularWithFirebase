@@ -19,15 +19,36 @@
 }
 
 #username{
-    position: absolute;
-    bottom: 25px;
-    left: 15px;
+    text-align: center;
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     font-weight: normal;
-    font-style: italic;
+    margin-top: 30px;
 }
+
+#profilediv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 400px;
+    border: 2px solid #FEB5AF;
+    border-radius: 5px;
+}
+
+#personalInfo{
+    height: 200px;
+    width: 100%;
+    border-bottom: 2px solid #FEB5AF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
 
 #menu{
    position: absolute;
@@ -47,14 +68,14 @@
 }
 
 #profilepic{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
