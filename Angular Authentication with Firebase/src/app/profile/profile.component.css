@@ -1,75 +1,86 @@
-#profilePage{
-    height: 100%;
-    width: 100%;
-    background: #ff9966;  
-    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966); 
-    background: linear-gradient(to right, #ff5e62, #ff9966);
-    position: relative;
+
+ :host { display: block } 
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+
+
 
 #logout{
-    position: absolute;
-    top: 25px;
-    right: 15px;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #039BE5;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
     color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
     font-weight: normal;
-    font-style: italic;
+    border-radius: 17px;
 }
 
-#username{
-    position: absolute;
-    bottom: 25px;
-    left: 15px;
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: italic;
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-#menu{
-   position: absolute;
-    top: 25px;
-    left: 15px; 
+#left{
+    flex-grow: 1;
+    padding: 20px;
 }
 
-#logo{
-    position: absolute;
-    top: 27px;
-    left: 105px;
-    color: #fff;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: italic;
+#infodiv{
+    background-color: #fff;
+    height: 50%;
+}
+#middle{
+    flex-grow: 2;
+    padding-top: 20px;
 }
 
-#profilepic{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
+#postdiv{
+    height: 100%;
     background-color: #fff;
 }
 
-
-.svg-icon {
-  width: 2em;
-  height: 2em;
+#right{
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #fff;
+#latestusers{
+    height: 60%;
+    background-color: #fff;
+    margin-bottom: 20px;
 }
 
-.svg-icon circle {
-  stroke: #fff;
-  stroke-width: 1;
+#developer{
+    height: 30%;
+    background-color: #fff;
 }
