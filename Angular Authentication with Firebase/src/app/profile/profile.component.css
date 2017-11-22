@@ -28,18 +28,29 @@ html[xmlns] .clearfix {
 #logout{
     display: inline-block;
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 10px;
-    background-color: #039BE5;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    border-radius: 17px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+#logout div{
+    position: absolute;
+    top: 10px ;
+    width: 20px;
+    height: 50px;
+    background-color: #fff;
+}
+
+#logout img{
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    z-index:1;
+    border-radius: 50%;
 }
 
 
